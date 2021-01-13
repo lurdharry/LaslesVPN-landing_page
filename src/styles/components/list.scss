@@ -1,0 +1,59 @@
+#usage {
+  display: flex;
+  max-width: 90vw;
+  border-radius: 10px;
+  margin-top: 5rem;
+  color: black;
+  justify-content: space-evenly;
+  background-color: white;
+
+  .item {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+  }
+  .text_list {
+    flex-direction: column;
+    display: flex;
+    margin-left: 5rem;
+  }
+  .num {
+    margin-bottom: 0.5em;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .name {
+    color: #4f5665;
+    font-weight: 600;
+  }
+  .divider {
+    height: 7rem;
+    background-color: #eeeff2;
+    width: 1px;
+    margin-left: 7em;
+  }
+  .no {
+    @extend .divider;
+    width: 0;
+  }
+}
+
+#list {
+  flex-direction: column;
+  display: flex;
+  .item {
+    flex-direction: row;
+    margin-bottom: 1rem;
+    align-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .imgBox {
+    background-image: url("../../assets/Icon/mark.svg");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    height: 24px;
+    width: 24px;
+  }
+}
