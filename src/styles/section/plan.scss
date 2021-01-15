@@ -1,0 +1,111 @@
+$primary: #f53838;
+#plan {
+  min-width: 100vh;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // padding-bottom: 5em;s
+
+  .text-holder {
+    min-width: 12rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    .choose {
+      font-size: 2rem;
+    }
+    .detail {
+      max-width: 30rem;
+      text-align: center;
+      line-height: 1.7em;
+      margin-top: 1rem;
+      margin-bottom: 4em;
+    }
+  }
+  .item-holder {
+    flex-direction: row;
+    display: flex;
+    min-width: 50vw;
+    justify-content: space-between;
+    .package-item {
+      // padding: 4em;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      border-radius: 1em;
+      border: 1px solid black;
+      box-sizing: border-box;
+      // border-color: red;
+      // border-width: thick;
+      height: 15em;
+      width: 20em;
+
+      .name {
+        margin-top: 1.5rem;
+      }
+      .list-container {
+        margin-top: 1.5em;
+
+        .bene {
+          flex-direction: row;
+          display: flex;
+          margin-bottom: 0.7em;
+          align-items: center;
+          // justify-content: center;
+
+          .icon {
+            background-image: url("../../assets/Icon//mm.svg");
+            background-size: contain;
+            height: 15px;
+            width: 15px;
+            background-repeat: no-repeat;
+            margin-right: 1.5em;
+          }
+        }
+      }
+      .bottom {
+        margin-top: 3em;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+
+        button {
+          color: $primary;
+          background-color: transparent;
+          cursor: pointer;
+          border: 2px solid $primary;
+          padding: 7px 0px 7px 0px;
+          width: 10em;
+          align-items: center;
+          border-radius: 20px;
+          margin-top: 1em;
+          outline: none;
+
+          &:hover {
+            color: white;
+            background-color: $primary;
+          }
+        }
+        // // position: relative;
+        // top: 20;
+        // // bottom: -1000;
+        // flex-direction: row;
+        // dis
+      }
+    }
+  }
+}
+.hh {
+  // padding: 4em;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 1em;
+  border: 1px solid black;
+  box-sizing: border-box;
+  // border-color: red;
+  // border-width: thick;
+  height: 15em;
+  width: 20em;
+}

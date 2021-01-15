@@ -47,6 +47,7 @@ export const plans = [
       "No Traffic Logs",
       "Works on All Devices",
     ],
+    time: "Free",
   },
   {
     name: "Standard Plan",
@@ -57,6 +58,7 @@ export const plans = [
       "Works on All Devices",
       "Connect Anyware",
     ],
+    time: "$9 / mo",
   },
   {
     name: "Premium Plan",
@@ -68,5 +70,6 @@ export const plans = [
       "Connect Anyware",
       "Get New Features",
     ],
+    time: "$12 / mo",
   },
 ];

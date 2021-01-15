@@ -1,6 +1,6 @@
 import React from "react";
 import { features } from "../data/details";
-import "../styles/components/list.scss";
+import "../styles//components/list.scss";
 
 export const List = () => {
   return (
